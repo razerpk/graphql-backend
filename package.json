@@ -1,0 +1,19 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "description": "fullstack_partA",
+  "main": "library-backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon library-backend.js"
+  },
+  "author": "Rico",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.1",
+    "graphql": "^14.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
