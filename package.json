@@ -4,14 +4,18 @@
   "description": "fullstack_partA",
   "main": "library-backend.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon library-backend.js"
+    "start": "node library-backend.js",
+    "watch": "nodemon library-backend.js"
   },
   "author": "Rico",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.9.1",
+    "dotenv": "^8.1.0",
     "graphql": "^14.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "mongoose-unique-validator": "^2.0.3",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
